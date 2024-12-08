@@ -9,7 +9,7 @@ import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
-import config
+from backend import config 
 from backend.tools.common_tools import is_video_or_image, is_image_file
 from backend.scenedetect import scene_detect
 from backend.scenedetect.detectors import ContentDetector
